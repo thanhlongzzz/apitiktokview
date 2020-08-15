@@ -1,0 +1,16 @@
+{
+  "name": "apitiktokview",
+  "version": "1.0.0",
+  "description": "API to access tiktok and get info",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "stop": "taskkill -F -IM node.exe",
+    "debug": "node --inspect-brk app.js"
+  },
+  "author": "thanhlongzzz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
