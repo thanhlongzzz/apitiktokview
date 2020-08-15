@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "stop": "taskkill -F -IM node.exe",
-    "debug": "node --inspect-brk app.js"
+    "debug": "node inspect app.js"
   },
   "author": "thanhlongzzz",
   "license": "ISC",
