@@ -19,7 +19,7 @@ var request = async (method, url, body = undefined) => {
         method: method,
         body: body,
         headers: {'Content-type': 'application/json; charset=UTF-8'}
-    }).then((res) => {console.log('object :>> ', res); return res;})
+    }).then((res) => {console.log('object :>> ', res); return res;});
     return data;
 };
 
