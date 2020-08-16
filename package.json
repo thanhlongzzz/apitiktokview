@@ -4,12 +4,12 @@
   "description": "API to access tiktok and get info",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./src-bin/app.js",
+    "start-realtime": "nodemon ./src-bin/app.js",
     "stop": "taskkill -F -IM node.exe",
     "debug": "node inspect ./src-bin/app.js",
     "build-to-bin": "babel ./src --out-dir src-bin --source-maps",
     "build-to-bin-real-time": "babel ./src --out-dir src-bin --source-maps --watch",
-    "build": "npm-run-all clean build-to-bin-real-time",
+    "build-dev": "npm-run-all clean build-to-bin-real-time",
     "clean": "rimraf src-bin"
   },
   "babel": {
